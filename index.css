@@ -1,0 +1,731 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    background-color: #002d2d;
+    justify-content: space-between;
+    position: fixed;
+    flex-wrap: wrap;
+    margin: auto;
+    
+    
+}
+.col1 {
+    display: flex;
+    margin-left: 80px;
+    flex-grow: 1;
+    
+}
+.col1 img{
+    width: 18%;
+    cursor: pointer;
+    height: 70px;
+    margin-top: 8px;
+}
+.col1 p {
+    Font-size: 17px;
+    Font-weight: 500;
+    Line-height: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.col2 {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 100px;
+}
+.col2 p {
+    padding-top: 5px;
+    Font-size: 17px;
+    Font-weight: 500;
+    Line-height: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    cursor: pointer;
+} 
+.col2 button {
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 6px 20px;
+    Font-size: 16px;
+    Font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #008060;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.father { 
+    width: 650px;
+    flex-grow: 1;
+    background-color: #002d2d;
+}
+.child {
+    display: flex;
+}
+.father h2 {
+    Font-size: 50px;
+    Font-weight: 800;
+    Line-height: 57.2px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.father h6 {
+    Font-size: 18px;
+    Font-weight: 500;
+    Line-height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.child input{
+    flex: 0.6;
+    padding: 20px 20px;
+    font-size: 14px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+.child button {
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 20px 20px;
+    Font-size: 14px;
+    Font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #008060;
+    cursor: pointer;
+    margin-top: 30px;
+    flex: 0.2;
+    border-radius: 5px;
+}
+.low {
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 18px;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.mother {
+    width: 700px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.mother img { width: 100%;
+}
+.row2 {
+    width: 100%;
+    margin-top: 80px;
+    flex-wrap: wrap;
+
+}
+.row2 h3 {
+    width: 65%;
+    margin-left: 80px;
+    font-size: 60px;
+    Font-weight: 500;
+    Line-height: 72px;
+    color: rgb(33, 35, 38);
+}
+.row3 {
+    
+    width: 1250px;
+    background-color: black;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    flex-grow: 1;
+}
+.row3 img {
+    width: 1100px;
+    margin-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.row4 {
+    width: 90%;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap; margin-bottom: 100px;
+}
+.store {
+    width: 400px;
+    margin-left: 80px;
+    border-top: 2px solid rgb(107, 113, 119);
+    flex-grow: 1;
+
+}
+.store h6 {
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 31.9999px;
+    color: rgb(33, 35, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.store p{
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+}
+.store a {
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 24px;
+    color: rgb(0, 128, 96);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.themes {
+    width: 400px;
+    margin-left: 20px;
+    border-top: 2px solid rgb(107, 113, 119);
+    flex-grow: 1;
+}
+.themes h6 {
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 31.9999px;
+    color: rgb(33, 35, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.themes p{
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.themes a {
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 24px;
+    color: rgb(0, 128, 96);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.app {
+    width: 400px;
+    margin-left: 15px;
+    border-top: 2px solid rgb(107, 113, 119);
+    flex-grow: 1;
+}
+.app h6 {
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 31.9999px;
+    color: rgb(33, 35, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.app p{
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.app a {
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 24px;
+    color: rgb(0, 128, 96);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.row5 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7%;
+    margin-bottom: 50px;
+}
+.connect {
+    width: 600px;
+    margin-left: 120px;
+    margin-top: 80px;
+    flex-grow: 1;
+}
+.connect h6 {
+    Font-size: 30px;
+    Font-weight: 400;
+    Line-height: 40px;
+    color: rgb(33, 35, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.connect p{
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(107, 113, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-right: 150px;
+
+}
+.connect a {
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 24px;
+    color: rgb(0, 128, 96);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.let {
+    width: 600px;
+    flex-grow: 1;
+}
+
+.row6 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7%;
+    margin-bottom: 100px;
+    margin: auto;
+    
+}
+.find {
+    width: 650px;
+    margin-left: 80px;
+    background-color: #c6f0fc;
+    height: 550px;
+    border-radius: 30px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.find img {
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 80px;
+    
+}
+.every {
+    width: 550px;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 40px;
+    flex-grow: 1;
+}
+.every h6 {
+    Font-size: 30px;
+    Font-weight: 400;
+    Line-height: 40px;
+    color: rgb(33, 35, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.every p {
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(107, 113, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+.every a {
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 24px;
+    color: rgb(0, 128, 96);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;}
+.row7 {
+    /* width: 100%; */
+    background-color: #f3fcf4; 
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+.empower {
+    width: 80%;
+    flex-grow: 1;
+}
+.empower h1 {
+    Font-size: 60px;    
+    Font-weight: 500;
+    Line-height: 60px;
+    color: rgb(33, 35, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+.prime img {
+    width: 1200px;
+    margin-left: 80px;
+    flex-grow: 1;
+}
+.row7_sub {
+    display: flex;
+    margin-top: -80px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.milli h1 {
+    Font-size: 64px;
+    Font-weight: 700;
+    Line-height: 64px;
+    color: rgb(0, 76, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.milli p {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.no h1 {
+    Font-size: 64px;
+    Font-weight: 700;
+    Line-height: 64px;
+    color: rgb(0, 76, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.no p {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.job h1 {
+    Font-size: 64px;
+    Font-weight: 700;
+    Line-height: 64px;
+    color: rgb(0, 76, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.job p {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.global h1 {
+    Font-size: 64px;
+    Font-weight: 700;
+    Line-height: 64px;
+    color: rgb(0, 76, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.global p {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row8 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.meet {
+    width: 650px;
+    flex-grow: 1;
+}
+.meet h6 {
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 31.9999px;
+    color: rgb(33, 35, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.meet h1 {
+    Font-size: 36px;
+    Font-weight: 400;
+    Line-height: 48px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.meet p {
+    Font-size: 18px;
+    Font-weight: 500;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.closet {
+    width: 600px;
+    flex-grow: 1;
+}
+.closet img {height: 350px;
+    margin-left: 100px;
+    gap: 10px;
+}
+/* .comp {
+   justify-content: right;
+} */
+.row9 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.audience {
+    flex-grow: 1;
+    width: 600px;
+    /* height: 600px; */
+}
+.edition {
+    width: 700px;
+    padding-top: 15%;
+    flex-grow: 1;
+    
+}
+.edition h1 {
+    Font-size: 48px;
+    Font-weight: 500;
+    Line-height: 55px;
+    color: rgb(33, 35, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.edition h6 {
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(107, 113, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    margin-right: 200px;
+}
+.edition a {
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 24px;
+    color: rgb(0, 128, 96);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}   
+.section6{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .per h6 {
+    Font-size: 48px;
+    Font-weight: 500;
+    Line-height: 60px;
+    color: rgb(33, 35, 38);
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  }
+  .all {
+    background-color: #fbf7ed;
+    width: 650px;
+    padding-top: 80px;
+    align-items: center;
+    padding-left: 80px;
+    flex-grow: 1;
+  }
+  .avert{
+    width: 600px;
+    flex-grow: 1;
+  }
+  .avert img {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .section6_sub1{
+    display: flex;
+    margin-top: 50px;
+  }
+  .section6_sub2 {
+    display: flex;
+    margin-top: 50px;
+  }
+  .p1 {
+    margin-bottom: 20px;
+    Font-size: 18px;
+    Font-weight: 500;
+    Line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: ShopifySans, Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  .p2 {
+    margin-bottom: 20px;
+    margin-right: 50px;
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(107, 113, 119);
+    font-family: ShopifySans, Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  .p3 {
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 24px;
+    color: rgb(0, 128, 96);
+    font-family: ShopifySans, Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  .per {
+    margin-right: 150px;
+  }
+  .section7 {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+  .attention h5 {
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 48px;
+    color: rgb(33, 35, 38);
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    margin-top: 100px;
+  }
+  .attention p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 37.5px;
+    color: rgb(107, 113, 119);
+    font-family: ShopifySans, Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  .attention button{
+    color: white;
+    padding: 15px 30px;
+    Font-size: 16px;
+    Font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #008060;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  footer {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: #004c3f;
+   
+  
+  }
+  .last {
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    border-bottom: 0.5px solid rgb(107, 113, 119);
+  }
+  .last p {
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 70px;
+    color: rgb(255, 255, 255);
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  }
+  .card{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    gap: 70px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(107, 113, 119);
+  }
+  .card h6 {
+    Font-size: 14px;
+    Font-weight: 800;
+    Line-height: 16px;
+    color: rgb(255, 255, 255);
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+  .card p {
+  margin-bottom: 10px;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: rgb(255, 255, 255);
+    font-family: ShopifySans, Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  .a2 {
+    margin-top: 30px;
+  }
+  .a3 {
+    margin-top: 30px;
+  }
+  .oval {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+  }
+  .peer {
+    display: flex;
+    gap: 10px;
+  }
+  .peer img {
+    width: 20%;
+    background-color: white;
+  }
+  .pear {
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+  }
+  .pear p {
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: ShopifySans, Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
